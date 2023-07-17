@@ -1,5 +1,6 @@
 #main{
-    background-image: url(assests/game.jfif);
+    background-image: no-repeat;
+    
 }
 #Guess{
     
@@ -7,8 +8,8 @@
     width: 400px;
     height: 200px;
     color: aquamarine;
-    margin-left: 400px;
-    margin-top: 200px;
+    margin-left: 450px;
+    margin-top: -600px;
     font-size: 30px;
 }
 #start{
@@ -17,13 +18,13 @@
     font-style: italic;
     margin-left: 140px;
     margin-top: 80px;
+    margin-bottom: 900px;
     color: rgb(114, 0, 0);
     font-size: 30px;
     border-radius: 90px;
 }
-#main2{
-    background-image: url(assests/lives.jfif);
-}
+
+
 
 #con1{
    color:palevioletred;
@@ -32,7 +33,7 @@
     height: 300px;
     margin-left: 400px;
     margin-right: 600px;
-    margin-top: 150px;
+    margin-top: -400px;
     margin-bottom: 600px;
     font-size: 30px;
 }
@@ -41,7 +42,7 @@
     height: 40px;
     margin-left: 200px;
     margin-right: 300px;
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 30px;
     border-radius: 80px;
 }
@@ -49,7 +50,7 @@
     width:100px;
     height: 40px;
     margin-left: 200px;
-    margin-top: 10px;
+    margin-top: 20px;
     
     font-size: large;
     border-radius: 10px;
@@ -63,37 +64,33 @@
     margin-bottom: 400px;
     
 }
-#main3{
-    background-image: url(assests/win.jfif);
-}
+
 
 #win{
     /* border: 2px solid black; */
-    margin-left: 500px;
-    margin-top: 200px;
+    margin-left: 300px;
+    margin-top: -700px;
     width: 500px;
     height: 50px;
     font-size: 40px;
     font-style: italic;
-    color: aquamarine;
+    color:black;
 }
-#main4{
-    background-image: url(assests/lose.jfif);
-}
-#lose{
+
+#loss{
     /* border: 2px solid black; */
-    margin-left: 1000px;
+    margin-left: 500px;
     margin-top: -200px;
     margin-bottom: 200px;
     width: 500px;
     height: 50px;
     font-size: 50px;
-    color:aquamarine;
+    color:white;
 }
 #startover{
     /* margin: 200px; */
     margin-left: 600px;
-    margin-top: 80px;
+    margin-top: -100px;
     width: 150px;
     height: 50px;
     font-size: 30px;
@@ -103,12 +100,24 @@
 }
 #startover{
     /* margin: 200px; */
-    margin-left: 600px;
-    margin-top: 80px;
+    margin-left: 400px;
+    margin-top: -100px;
     margin-bottom: 500px;
     width: 150px;
     height: 50px;
     font-size: 30px;
     color: blue;
     border-radius: 70px;
+}
+#lives{
+    display: flex;
+    justify-content: center;
+}
+.abc{
+    margin-top: -300px;
+    margin-left: 200px;
+}
+#ab,#win{
+    font-size: 50px;
+    color: black;
 }
